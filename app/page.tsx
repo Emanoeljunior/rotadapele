@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <div className="mx-auto w-full max-w-[500px] relative">
                 <Image
-                  src="/placeholder.svg?height=600&width=600"
+                  src="https://images.pexels.com/photos/16436909/pexels-photo-16436909/free-photo-of-barra-bar-boteco-banheiro.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   width={600}
                   height={600}
                   alt="Resultados antes e depois do tratamento de acne"
