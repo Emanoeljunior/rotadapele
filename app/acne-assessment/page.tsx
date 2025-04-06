@@ -25,29 +25,29 @@ export default function AcneAssessment() {
 
     try {
       const formData = new FormData(event.currentTarget)
-      const response = await saveAssessmentData(formData)
+      // const response = await saveAssessmentData(formData)
 
-      if (response.success) {
-        // Armazenar o ID da avaliação no localStorage para uso na página de upload de fotos
-        localStorage.setItem("assessmentId", response.id)
-        router.push("/acne-assessment/photo-upload")
-      } else {
-        toast({
-          title: "Erro",
-          description: response.message,
-          variant: "destructive",
-        })
-      }
-    } catch (error) {
-      console.error("Erro ao enviar formulário:", error)
-      toast({
-        title: "Erro",
-        description: "Ocorreu um erro ao enviar o formulário. Por favor, tente novamente.",
-        variant: "destructive",
-      })
-    } finally {
-      setIsSubmitting(false)
-    }
+      // if (response.success) {
+      //   // Armazenar o ID da avaliação no localStorage para uso na página de upload de fotos
+      //   localStorage.setItem("assessmentId", response.id)
+    router.push("/acne-assessment/photo-upload")
+    // } else {
+    //   toast({
+    //     title: "Erro",
+    //     description: response.message,
+    //     variant: "destructive",
+    //   })
+    // }
+    // } catch (error) {
+    //   console.error("Erro ao enviar formulário:", error)
+    //   toast({
+    //     title: "Erro",
+    //     description: "Ocorreu um erro ao enviar o formulário. Por favor, tente novamente.",
+    //     variant: "destructive",
+    //   })
+    // } finally {
+    //   setIsSubmitting(false)
+    // }
   }
 
   return (

@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <div className="mx-auto w-full max-w-[500px] relative">
                 <Image
-                  src="https://images.pexels.com/photos/16436909/pexels-photo-16436909/free-photo-of-barra-bar-boteco-banheiro.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://github.com/Emanoeljunior/rotadapele/blob/master/public/produtos_gerais.jpeg?raw=true"
                   width={600}
                   height={600}
                   alt="Resultados antes e depois do tratamento de acne"
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="https://github.com/Emanoeljunior/rotadapele/blob/master/public/pomada.jpeg?raw=true"
                 width={400}
                 height={400}
                 alt="Produto Rota da Pele"
